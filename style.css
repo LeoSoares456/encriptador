@@ -1,0 +1,151 @@
+
+*{
+        margin: 0;
+        padding: 0;
+    }
+
+
+body{
+    
+ font-family: 'Montserrat', sans-serif;
+background:linear-gradient( #FFFFFF, #E5E5E5);
+
+
+}
+
+.cabecalho{
+    display: flex;
+    padding: 4%;
+}
+
+
+.cabecalho img{
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+}
+
+
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color:#0A3871;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #0A3871;
+    opacity: 1;
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 20px;
+    background: white;
+    width: 350px;
+    height: 400px;
+    margin-right:6%;
+}
+
+
+#output h2{
+    text-align:center;
+    font-size:25px;
+    color:black;
+}
+#output span{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+#output img{
+    max-width:300px;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+.container-bnt button{
+    border: 2px solid ;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    background:#0A3871;
+    width: 150px;
+    height: 50px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid silver;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    color:white;
+    background:#0A3871;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 2px solid silver;
+   background: white;
+   color: black;
+   transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top:5px ;
+    background:#0A3871;
+    color:white;
+}
+
+.rodape h3{
+    font-size: 13px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+.icons ion-icon:hover{
+    color:white;
+}
+
+
+
+
+
